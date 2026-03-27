@@ -2,6 +2,10 @@
 
 Developer-first prompt engineering for reliable AI outputs: prompt anatomy, grounding, few-shot design, decomposition, and validation patterns that reduce hallucinations across the software development lifecycle.
 
+[![Track](https://img.shields.io/badge/Track-Prompting%20and%20Reliability-0A7EA4)](#)
+[![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-2E8B57)](#)
+[![Focus](https://img.shields.io/badge/Focus-Grounded%20Outputs-C96E12)](#)
+
 ## Overview
 
 This repository is the foundation layer for working developers who want prompts that are precise, testable, and production-usable. The focus is not on clever wording. The focus is on prompt structure that reduces ambiguity, constrains unsupported claims, and gives models a repeatable path to produce useful results.
@@ -24,6 +28,30 @@ This repository is the foundation layer for working developers who want prompts 
           │  - easier prompt iteration                │
           └───────────────────────────────────────────┘
 ```
+
+## What You Will Learn
+
+By the end of this repository, you should be able to:
+
+- structure prompts so the model has less room to invent unsupported details
+- separate role, context, task, constraints, and validation into a repeatable workflow
+- apply prompt patterns across planning, coding, debugging, review, and documentation tasks
+- prepare for the workflow and evaluation repositories that follow this one
+
+## Prerequisites
+
+This repository works best if you already:
+
+- use LLMs in developer workflows or want to start doing so
+- understand the basics of software delivery, debugging, and documentation work
+- want more reliable behavior instead of creative but unstable outputs
+
+## Recommended Next Repositories
+
+After this repository, continue with:
+
+- [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) for repo-based AI-assisted development flows
+- [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) for measurement and release-gate thinking
 
 ## Why This Repo Exists
 
